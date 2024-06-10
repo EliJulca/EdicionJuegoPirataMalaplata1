@@ -109,6 +109,9 @@ libraries = {
 "": SubResource("AnimationLibrary_bw8es")
 }
 
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(106.482, 88.4637)
+
 [connection signal="animation_finished" from="AnimationPlayerGP360" to="." method="_on_animation_player_animation_finished"]
 [connection signal="animation_finished" from="AnimationPlayerEndless" to="." method="_on_animation_player_endless_animation_finished"]
 [connection signal="animation_finished" from="AnimationPixelFrog" to="." method="_on_animation_pixel_frog_animation_finished"]
